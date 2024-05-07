@@ -1,10 +1,8 @@
-# Importing modules
 import tkinter as tk
 import tkinter.ttk as ttk
 import tkinter.messagebox
 import os
 import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from lib import database as db
 from lib.crypting import Crypting
 import lib.main_menu as main_menu
@@ -30,8 +28,8 @@ class LoginWindow(ttk.Frame, ThemeEngine):
         # Setting Window Title
         master.title("Inventory Management System/ Login")
         # Adding icon to title menu
-        master.iconbitmap("images/login_title_icon.ico")
-        
+        #master.iconbitmap("images/login_title_icon.ico")  # Removed for security
+
         #===============  Background Frame / Master Frame ===============
         
         self.bg_frame = ttk.Frame(master, width=win_width, height=win_height)
@@ -47,7 +45,7 @@ class LoginWindow(ttk.Frame, ThemeEngine):
         logo_label = ttk.Label(self.bg_frame, image=self.login_logo)
         logo_label.place(x=25,y=0, relheight=1)
         
-        # Adding Username and Pasword's Entries 
+        # Adding Username and Password Entries 
         self.username = tk.StringVar()
         self.password = tk.StringVar()
         # Username
@@ -84,7 +82,7 @@ class LoginWindow(ttk.Frame, ThemeEngine):
                                      bg=self.button_bg, activebackground=self.button_bg,
                                      bd=0, command=self.validating_login)
         self.login_button.place(x=440, y=255)
-        def method7(self,*args):
+        def reset_password(*args):
             base=tk.Tk()
             base.title("RESET PASSWORD")
             base.configure(bg='tomato')
@@ -116,8 +114,6 @@ class LoginWindow(ttk.Frame, ThemeEngine):
             txt4.place(x=410, y=360)
             btn1 =tk.Button(base, text="CHANGE PASSWORD", bg="black", fg="white", font=("Arial Rounded MT Bold", 14))
             btn1.place(x=310, y=440)
-            #client = Client("AC2d6ba78a171ee1be4da9e12730628a7f", "6d4de1ac0ade319c146c7c12dd4ce00d")
-            #client.messages.create(to=["+919359245007"], from_="+14694103367", body="hello")
             base.mainloop()
         # Binding keys to entry widgets
         self.username_entry.bind("<Return>", self.validating_login)
@@ -126,7 +122,7 @@ class LoginWindow(ttk.Frame, ThemeEngine):
         self.password_entry.bind("<Escape>", lambda e: e.widget.quit())
         forgot_label = tk.Label(self.bg_frame, text="forgot password?",bg=self.entry_bg, fg=self.entry_fg, bd=0,font="Arial 16 bold",foreground="tomato")
         forgot_label.place(x=40,y=275)
-        forgot_label.bind("<Button>", method7)
+        forgot_label.bind("<Button>", reset_password)
 
     def validating_login(self, *args):
         db_obj = db.Database()
