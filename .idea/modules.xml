@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/PycharmProjects/CppProject/.idea/CppProject.iml" filepath="$USER_HOME$/PycharmProjects/CppProject/.idea/CppProject.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/examples/.idea/Examples.iml" filepath="$USER_HOME$/PycharmProjects/examples/.idea/Examples.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/Game/.idea/Game.iml" filepath="$USER_HOME$/PycharmProjects/Game/.idea/Game.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/Gui/.idea/Gui.iml" filepath="$USER_HOME$/PycharmProjects/Gui/.idea/Gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Inventory-Management-System-master.iml" filepath="$PROJECT_DIR$/.idea/Inventory-Management-System-master.iml" />
+      <module fileurl="file://C:/Python/.idea/Python.iml" filepath="C:/Python/.idea/Python.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/SalaryPayroll/.idea/SalaryPayroll.iml" filepath="$USER_HOME$/PycharmProjects/SalaryPayroll/.idea/SalaryPayroll.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/UI Testing/.idea/UI Testing.iml" filepath="$USER_HOME$/PycharmProjects/UI Testing/.idea/UI Testing.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/college_programs_33125/.idea/college_programs_33125.iml" filepath="$USER_HOME$/PycharmProjects/college_programs_33125/.idea/college_programs_33125.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/database/.idea/database.iml" filepath="$USER_HOME$/PycharmProjects/database/.idea/database.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/filehandling/.idea/filehandling.iml" filepath="$USER_HOME$/PycharmProjects/filehandling/.idea/filehandling.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/project1/.idea/project1.iml" filepath="$USER_HOME$/PycharmProjects/project1/.idea/project1.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/projectinfilehandling/.idea/projectinfilehandling.iml" filepath="$USER_HOME$/PycharmProjects/projectinfilehandling/.idea/projectinfilehandling.iml" />
+    </modules>
+  </component>
+</project>
